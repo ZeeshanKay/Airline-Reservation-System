@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Travel Plan</title>
+<link href="http://localhost/airbook/TravelPlan/Style.css" rel="stylesheet" type="text/css">
+<link href="http://localhost/airbook/TravelPlan/TravelForm.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="logo">
+<img src="http://localhost/airbook/TravelPlan/Logo%201.png" height="100%">
+<img src="http://localhost/airbook/TravelPlan/Logo%202.png" height="70%" width="30%">
+<div class="sign">
+<a href="#">Sign In</a>
+<a href="http://localhost/airbook/Sign%20Up/Sign%20Up%20HTML.html">New User? Register Here</a>
+</div>
+</div>
+<div class="container">
+<div class="navigation">
+<nav>
+  <ul>
+  <li><a href="http://localhost/airbook/Home/Home.html">HOME</a></li><li>
+      <a href="#">BOOK TICKETS</a></li><li>
+      <a href="#">ENQUIRY</a>
+        <ul>
+        <li><a href="http://localhost/airbook/FlightDetails/FlightDetails.html">Flight Details</a></li><li>
+            <a href="#">Our Connections</a></li><li>
+            <a href="http://localhost/airbook/SeatAvaibility/SeatAvaibility.html">Seat Avaibility</a></li>
+         </ul></li><li>
+      <a href="#">TRAVEL PLAN</a></li><li>
+      <a href="#">MY TICKET</a></li><li>
+      <a href="http://localhost/airbook/My%20Account/My%20Account.html">MY ACCOUNT</a></li>
+   </ul>
+</nav>
+</div>
+<br/><br/>
+<div class="travelform">
+<form method="POST" action="connectivity.php"> 
+<br>
+<na>Source:</na> <input type="text" name="user" value="From" size="40"> &emsp;&emsp;&emsp;     
+<na>Destination:</na> <input type="text" name="user" value="To" size="40"><br> <br> <br> <br>
+<na>Date Of Journey:</na> <input type="date" name="date" size="40"><br> <br> <br> <br>
+<na>Class:</na> <select name="Class" > 
+                <option value="Economy" selected>Economy</option> 
+                <option value="First"> First</option> 
+                </select><br> <br> <br> <br>
+<input id="button" type="submit" name="submit" value="Get Flights">  &emsp;&emsp;&emsp; 
+<input id="button" type="submit" name="submit" value="Reset">
+<br>
+</form> 
+</div>
+<br><br><br><br>
+<div class="footer">
+<p1>Follow Us On: &emsp; Facebook  &emsp; Twitter  &emsp;  LinkedIn</p1>
+<hr>
+<br><br>
+<div class="about"> 
+<b><u>About Us:</u></b><br><br>
+Airbook is a leading online travel services provider in India and all over world.<br>
+We offer best deals on flight booking and holiday packages.<br>
+You can easily book and cancel your tickets.
+</div>
+<div class="contact">  
+<b><u>Contact Us:</u></b><br><br>
+Danish Iqbal<br>
+Zeeshan Ahmad Khan<br>
+Aiyan Hamid
+</div><br><br>
+<hr><br>
+<p align="center">© Airbook Pvt. Ltd.
+Estd. 2017. Crafted In India<p>
+<br>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.travelform
+{
+position: relative;
+left: 100px;
+margin-left: auto;
+margin-right: auto:
+align: center;
+z-index: 1;
+}
+
+input, select
+{
+height: 40px;
+width: 300px;
+}
+na
+{
+padding-right: 2em;
+font-size: 25px;
+font: ariel;
+}
